@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="ko" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>새 예배당 안내 지도</title>
+  <meta name="description" content="서울특별시 도봉구 도봉로 528 새 예배당 방문용 쉬운 안내 지도 페이지" />
+  <style>
+    :root {
+      --bg:#f6f4ef; --card:#fffdfa; --line:#e5ddd2; --text:#23211c; --muted:#706b63; --accent:#6f5a43; --shadow:0 10px 28px rgba(35,33,28,.08); --r:22px;
+    }
+    *{box-sizing:border-box}
+    body{margin:0;font-family:"Pretendard","Apple SD Gothic Neo","Malgun Gothic",sans-serif;background:linear-gradient(180deg,#fbf9f5,#f1ece4);color:var(--text);line-height:1.6}
+    .wrap{max-width:760px;margin:0 auto;padding:20px}
+    .hero,.card{background:var(--card);border:1px solid var(--line);border-radius:28px;padding:26px;box-shadow:var(--shadow)}
+    .card{margin-top:18px;border-radius:22px;padding:22px}
+    .eyebrow{font-size:13px;color:var(--accent);font-weight:800;letter-spacing:.08em}
+    h1{font-size:clamp(29px,5vw,43px);line-height:1.15;margin:8px 0 14px}
+    .sub{color:var(--muted);font-size:16px;margin:0}
+    .mapbox{background:#f5f0e8;border:1px dashed #cdbca7;border-radius:18px;padding:18px;margin-top:14px}
+    .pin{font-size:38px;text-align:center;margin-bottom:8px}
+    .place{font-size:25px;font-weight:900;text-align:center;margin-bottom:6px}
+    .address{font-size:18px;font-weight:700;text-align:center}
+    .hint{font-size:14px;color:var(--muted);text-align:center;margin-top:8px}
+    .btns{display:grid;grid-template-columns:1fr;gap:12px;margin-top:18px}
+    a.btn{display:block;text-decoration:none;text-align:center;padding:15px 16px;border-radius:16px;font-weight:800;border:1px solid transparent}
+    .naver{background:#03c75a;color:#fff}.kakao{background:#fee500;color:#191919}.google{background:#fff;color:#1f1f1f;border-color:#d9d9d9}
+    .list{display:grid;gap:12px;margin-top:12px}.item{padding:14px 16px;background:#fff;border:1px solid var(--line);border-radius:16px}.item b{display:block;margin-bottom:4px}
+    .footer{padding:18px 4px 40px;color:var(--muted);font-size:13px;text-align:center}
+    @media (min-width:640px){.btns{grid-template-columns:repeat(2,1fr)} .btns a:last-child{grid-column:1/-1}}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <section class="hero">
+      <div class="eyebrow">EASY LOCATION GUIDE</div>
+      <h1>새 예배당<br>찾아오시는 길</h1>
+      <p class="sub">처음 오시는 분도 쉽게 찾을 수 있도록 간단하게 만든 안내 페이지입니다. 아래 버튼을 누르면 바로 길찾기로 연결됩니다.</p>
+    </section>
+
+    <section class="card">
+      <h2 style="margin:0 0 12px;font-size:22px;">방문 장소</h2>
+      <div class="mapbox">
+        <div class="pin">📍</div>
+        <div class="place">새 예배당</div>
+        <div class="address">서울특별시 도봉구 도봉로 528</div>
+        <div class="hint">내비게이션 검색: 도봉로 528 또는 리바트 창동점</div>
+      </div>
+
+      <div class="btns">
+        <a class="btn naver" target="_blank" rel="noopener noreferrer" href="https://map.naver.com/p/search/%EC%84%9C%EC%9A%B8%20%EB%8F%84%EB%B4%89%EA%B5%AC%20%EB%8F%84%EB%B4%89%EB%A1%9C%20528">네이버지도로 길찾기</a>
+        <a class="btn kakao" target="_blank" rel="noopener noreferrer" href="https://map.kakao.com/link/search/%EC%84%9C%EC%9A%B8%20%EB%8F%84%EB%B4%89%EA%B5%AC%20%EB%8F%84%EB%B4%89%EB%A1%9C%20528">카카오맵으로 길찾기</a>
+        <a class="btn google" target="_blank" rel="noopener noreferrer" href="https://www.google.com/maps/search/?api=1&query=%EC%84%9C%EC%9A%B8%20%EB%8F%84%EB%B4%89%EA%B5%AC%20%EB%8F%84%EB%B4%89%EB%A1%9C%20528">구글지도로 길찾기</a>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2 style="margin:0 0 10px;font-size:22px;">찾아오실 때 참고하세요</h2>
+      <div class="list">
+        <div class="item"><b>주소 검색</b><span>내비게이션에 "서울 도봉구 도봉로 528"을 입력하시면 됩니다.</span></div>
+        <div class="item"><b>건물명 검색</b><span>리바트 창동점으로 검색해도 같은 위치를 찾는 데 도움이 됩니다.</span></div>
+        <div class="item"><b>대중교통 참고</b><span>쌍문역 1번 출구에서 도보 이동 안내가 알려져 있는 위치입니다.</span></div>
+      </div>
+    </section>
+
+    <div class="footer">공유용 URL 페이지로 사용하실 수 있습니다.</div>
+  </div>
+</body>
+</html>
